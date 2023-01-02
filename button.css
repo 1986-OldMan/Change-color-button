@@ -5,6 +5,7 @@
 }
 
 body {
+    display: contents;
     width: 100%;
     height: 100vh;
 }
@@ -16,56 +17,31 @@ body {
     gap: 10px;
 }
 
-.Btn-one {
+.btn-light-1 {
+    display: grid;
+    grid-area: 4/2/4/2;
+    border: 2px;
+}
+
+.btn-light-2 {
     display: grid;
     grid-area: 4/3/4/3;
-    height: 70px;
-    align-items: center;
-    align-self: center;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
-.Btn-two {
+.btn-light-3 {
     display: grid;
     grid-area: 4/4/4/4;
-    height: 70px;
-    align-items: center;
-    align-self: center;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
-.Btn-three {
+.btn-light-4 {
     display: grid;
     grid-area: 4/5/4/5;
-    height: 70px;
-    align-items: center;
-    align-self: center;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.Btn-four {
-    display: grid;
-    grid-area: 4/6/4/6;
-    height: 70px;
-    align-items: center;
-    align-self: center;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 .Btn-reset {
     display: grid;
-    grid-area: 6/5/6/5;
-    padding-top: 20px;
+    grid-area: 4/7/4/7;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }

@@ -1,8 +1,8 @@
 
-document.querySelector('.Btn-one').addEventListener('click', colorButton);
-document.querySelector('.Btn-two').addEventListener('click', colorButton);
-document.querySelector('.Btn-three').addEventListener('click', colorButton);
-document.querySelector('.Btn-four').addEventListener('click', colorButton);
+document.querySelector('.btn-light-1').addEventListener('click', colorButton);
+document.querySelector('.btn-light-2').addEventListener('click', colorButton);
+document.querySelector('.btn-light-3').addEventListener('click', colorButton);
+document.querySelector('.btn-light-4').addEventListener('click', colorButton);
 
 function colorButton(buttonClicked) {
 
@@ -15,21 +15,21 @@ function colorButton(buttonClicked) {
   buttonFromHtml.style.backgroundColor = buttonFromHtmlColor;
 
 
-  console.log('function work');
+  console.log('function work: change color');
 
 }
 
 function onClickReset() {
 
-  document.getElementById("btn-one").reset = document.querySelector('.Btn-one').style.backgroundColor = "white";
+  document.getElementById("btn-one").reset = document.querySelector('.btn-light-1').style.backgroundColor = "white";
 
-  document.getElementById("btn-two").reset = document.querySelector('.Btn-two').style.backgroundColor = "white";
+  document.getElementById("btn-two").reset = document.querySelector('.btn-light-2').style.backgroundColor = "white";
 
-  document.getElementById("btn-three").reset = document.querySelector('.Btn-three').style.backgroundColor = "white";
+  document.getElementById("btn-three").reset = document.querySelector('.btn-light-3').style.backgroundColor = "white";
 
-  document.getElementById("btn-four").reset = document.querySelector('.Btn-four').style.backgroundColor = "white"
+  document.getElementById("btn-four").reset = document.querySelector('.btn-light-4').style.backgroundColor = "white"
 
-  console.log('buttons are reset');
+  console.log('colors of buttons/button are reset');
 
 }
 
